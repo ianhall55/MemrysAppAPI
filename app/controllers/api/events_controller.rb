@@ -1,7 +1,7 @@
 class Api::EventsController < ApplicationController
 
   def index
-    @events = Event.where(owner_id: params[:id])
+    @events = Event.where(user_id: params[:userId])
   end
 
   def show

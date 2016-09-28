@@ -8,3 +8,6 @@
 
 
 User.create!({name: 'guest', email: 'guest@gmail.com', username: 'guest', password: 'password'})
+
+Event.create!({title: 'Thailand', user_id: 1, event_date: '15/1/2016'})
+Event.create!({title: 'Costa Rica', user_id: 1, event_date: '20/12/2013'})
